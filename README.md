@@ -1,0 +1,1 @@
+This repository contains code (R and Rmarkdown) and report (PDF) for the edX Data Science: Capstone course. It is intended for peer reviewers to easily download the code and review/run it. In case of questions, please contact me through GitHub.
