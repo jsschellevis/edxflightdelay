@@ -53,8 +53,8 @@ options(scipen = 1, digits = 3)
 
 # Load data for project from rdata file
 load("rdata/flights_split.RData")
-load("rdata/model_fits.RData")
-
+load("rdata/model_fits_1.RData")
+load("rdata/model_fits_2.RData")
 ```
 
 \newpage
