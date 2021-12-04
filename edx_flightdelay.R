@@ -227,7 +227,6 @@ rm(use_flights)
   rm(use_flights_notdelayed)
   rm(p_forbalance)
   rm(nrow_parts)
-  rm(use_flights)
   rm(flights_sfo_delayed)
   rm(flights_sfo_notdelayed)
 
