@@ -341,7 +341,8 @@ model_results <- tibble()
 overall_delay_pct <- mean(train$Delayed == 1)
 
 # Load data with trained models and predictions
-load("rdata/model_fits.RData")
+load("rdata/model_fits_1.RData")
+load("rdata/model_fits_2.RData")
 
 ## M1 - Logistic Regression model on delay yes/no
 
@@ -587,5 +588,6 @@ load("rdata/model_fits.RData")
   # Show rearranged results best to worst
   model_results_probspec %>% arrange(desc(ProbSpec))
 
-# Save/load model fits and predictions due to large computing effort 
-save(m1_fit, m1_fit_bal, m1_predict, m1_predict_bal, m1_predict_class, m1_predict_class_bal, m2_fit, m2_fit_bal, m2_predict_class, m2_predict_class_bal, m3_fit, m3_fit_bal, m3_predict_class, m3_predict_class_bal, m4_fit, m4_fit_bal, m4_predict_class, m4_predict_class_bal, m5_fit, m5_fit_bal, m5_predict, m5_predict_bal, m6_fit, m6_fit_bal, m6_predict, m6_predict_bal, m7_fit, m7_fit_bal, m7_predict, m7_predict_bal, model_results, model_results_probspec, file = "rdata/model_fits.RData")
+# Save/load model fits and predictions due to large computing effort, in two different files given GitHub file size limit
+save(m1_fit, m1_fit_bal, m1_predict, m1_predict_bal, m1_predict_class, m1_predict_class_bal, m2_fit, file = "rdata/model_fits_1.RData")
+save(m2_fit_bal, m2_predict_class, m2_predict_class_bal, m3_fit, m3_fit_bal, m3_predict_class, m3_predict_class_bal, m4_fit, m4_fit_bal, m4_predict_class, m4_predict_class_bal, m5_fit, m5_fit_bal, m5_predict, m5_predict_bal, m6_fit, m6_fit_bal, m6_predict, m6_predict_bal, m7_fit, m7_fit_bal, m7_predict, m7_predict_bal, model_results, model_results_probspec, file = "rdata/model_fits_2.RData")

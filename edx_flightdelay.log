@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.12.1)  4 DEC 2021 16:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.12.1)  4 DEC 2021 17:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -841,7 +841,7 @@ be/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmtk10.pfb></home/jebbe/.TinyTeX/t
 exmf-dist/fonts/type1/public/lm/lmtko10.pfb></home/jebbe/.TinyTeX/texmf-dist/fo
 nts/type1/public/lm/lmtt10.pfb></home/jebbe/.TinyTeX/texmf-dist/fonts/type1/pub
 lic/lm/lmtti10.pfb>
-Output written on edx_flightdelay.pdf (42 pages, 424132 bytes).
+Output written on edx_flightdelay.pdf (42 pages, 424143 bytes).
 PDF statistics:
  558 PDF objects out of 1000 (max. 8388607)
  447 compressed objects within 5 object streams
